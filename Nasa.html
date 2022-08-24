@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt_Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Nasa.css">
+    <title> N A S A </title>
+</head>
+
+<nav>
+    <h1>Nasa Tours</h1>
+</nav>
+
+
+<body>
+    <section class="Forms">
+    <div id="Titulo">
+        <h1>Bem vindo á Nasa Tours.</h1>
+        <h2>O Site Oficial da agência de contratações para passeios no espaço!</h2>
+    </div>
+
+    <br>
+
+    <div id="NomeData">
+        <label name="data"><strong> Digite seu nome:</strong></label>
+        <input type="text" name="data">
+        <label> <strong> | Data de Nascimento:</strong>
+            <input type="date">
+    </div>
+
+    <br>
+
+    <div id="Genero">
+        <strong>Gênero:</strong>
+        <input type="radio" name="Gen" value="Feminino"><strong>Masculino</strong>
+        <input type="radio" name="Gen" value="Masculino"> <strong>Feminino</strong>
+        <input type="radio" name="Gen" value="Outro"> <strong>Outro</strong>
+    </div>
+
+    <div id="nave">
+        <h3>Escolha sua nave:</h3>
+        <input list="NaveChoose" name="Naves">
+        <datalist id="NaveChoose">
+            <option value="Shenzhou"></option>
+            <option value="Soyuz-TM"></option>
+            <option value="Apollo 17"></option>
+            <option value="GALEX"></option>
+            <option value="SMART-1"></option>
+        </datalist>
+    </div>
+
+    <br>
+
+    <div id="Uniforme">
+        <h3>Escolha a(s) Cor(es) do seu uniforme:</h3>
+        <input type="checkbox" value="Preto"><strong>Preto</strong> <br>
+        <input type="checkbox" value="Branco"> <strong>Branco</strong> <br>
+        <input type="checkbox" value="Vermelho"> <strong>Vermelho</strong> <br>
+    </div>
+
+    <br>
+
+    <fieldset>
+        <legend><strong>O que te motiva a querer viajar pelo espaço?</strong></legend>
+        <textarea rows="15" cols="37"></textarea> <br>
+        <button type="button">Promover agendamento</button>
+    </fieldset>
+
+    </section>
+    <img src="trunasa.png" alt="">
+</body>
+
+</html>
