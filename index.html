@@ -16,6 +16,7 @@
 
 <body>
     <section class="Forms">
+        <div id="check">
     <div id="Titulo">
         <h1>Bem vindo á Nasa Tours.</h1>
         <h2>O Site Oficial da agência de contratações para passeios no espaço!</h2>
@@ -25,9 +26,9 @@
 
     <div id="NomeData">
         <label name="data"><strong> Digite seu nome:</strong></label>
-        <input type="text" name="data">
+        <input type="text" name="data" aria-placeholder="Nome">
         <label> <strong> | Data de Nascimento:</strong>
-            <input type="date">
+            <input type="date" placeholder="Dia/Mês/Ano">
     </div>
 
     <br>
@@ -63,12 +64,14 @@
 
     <fieldset>
         <legend><strong>O que te motiva a querer viajar pelo espaço?</strong></legend>
+        <br>
         <textarea rows="15" cols="37"></textarea> <br>
         <button type="button">Promover agendamento</button>
     </fieldset>
 
     </section>
     <img src="trunasa.png" alt="">
+</div>
 </body>
 
 </html>
